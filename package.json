@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-es6-modules",
+  "version": "0.0.1",
+  "description": "Quick example on how to use ECMAScript-Modules natively is node.js",
+  "main": "index.mjs",
+  "author": "Henrik Wenz <HaNdTriX@gmail.com> (https://github.com/HaNdTriX)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules index"
+  },
+  "engines" : {
+    "node" : "<v8.5.0"
+  }
+}
